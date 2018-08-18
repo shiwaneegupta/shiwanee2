@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Create User</title>
+</head>
+
+<body>
+    <h1>Create User</h1>
+    <hr>
+    <form action="login.html" method="get" enctype="application/x-www-form-urlencoded">
+        My Form
+        <br>
+        <label for="nameid">Name:</label>
+        <input type="text" name="name" id="nameid" />
+        <label for="surnameid">Surname:</label>
+        <input type="text" name="surname" id="surnameid" />
+        <select name="Movies">
+            <option value="">Please select a movie</option>
+            <option value="deadpool">Deadpool</option>
+            <option value="batman_vs_superman">Batman v Superman</option>
+            <option value="civil_war" selected>Captain America:CivilWar</option>
+            <option value="doctor_strange">Doctor Strange</option>
+        </select>
+        <textarea name="Bio" placeholder="Please write bio here"></textarea>
+        <button type="reset" value="Reset">clear</button>
+        <button value="create" name="create-user">Add User name</button>
+
+    </form>
+    <br>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="filename" />
+    </form>
+</body>
+
+</html>

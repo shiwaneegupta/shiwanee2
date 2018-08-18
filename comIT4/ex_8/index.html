@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <script>
+
+        window.alert('This program adds all the numbers you input');
+        var i = 0;
+        var count = 0;
+        while (window.confirm('Do you want to input another number?')) {
+            var k = Number(window.prompt('Please input another number'));
+            i = i + k;
+            count = count + 1;
+            window.alert(`The result so far is: ` + i);
+        }
+        var aver = i / count;
+        window.alert(`The final result is: ` + i);
+        window.alert(`The user input is ${count} numbers`);
+        window.alert(`The average is: ${aver}`);
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Events</title>
+    <script>
+        window.onload = function myfunction() {
+            const firstbuttonElement = document.querySelector('button');
+            firstbuttonElement.addEventListener('click', function() {
+                alert('You clicked an event listened element');
+                
+            });
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <div></div>
+    <button id="firstbutton">Click me!!</button>
+    <button id="secondButton">Remove event listener</button>
+    <a href="https://google.com">Link with JavaScript handler</a>
+</body>
+
+</html>

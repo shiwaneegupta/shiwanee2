@@ -1,0 +1,11 @@
+const number = 9;
+console.log('9*1='+(number*1) );
+console.log('9*2='+(number*2) );
+console.log('9*3='+(number*3) );
+console.log('9*4='+(number*4) );
+console.log('9*5='+(number*5) );
+console.log('9*6='+(number*6) );
+console.log('9*7='+(number*7) );
+console.log('9*8='+(number*8) );
+console.log('9*9='+(number*9) );
+console.log('9*10='+(number*10) );

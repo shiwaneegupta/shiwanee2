@@ -1,0 +1,17 @@
+const firstNumber = 10;
+const secondNumber = 5;
+const result1 = firstNumber + secondNumber;
+const result2 = firstNumber - secondNumber;
+const result3 = firstNumber * secondNumber;
+const result4 = firstNumber/secondNumber;
+const result5 = firstNumber%secondNumber;
+let template1 = `I added  ${firstNumber} + ${secondNumber} and the result is ${result1}`;
+let template2 = `I subtracted  ${firstNumber} - ${secondNumber} and the result is ${result2}`;
+let template3 = `I multiplied  ${firstNumber} * ${secondNumber} and the result is ${result3}`;
+let template4 = `I divided  ${firstNumber} / ${secondNumber} and the result is ${result4}`;
+let template5 = `I divided  ${firstNumber} % ${secondNumber} and the remainder is ${result5}`;
+console.log(template1);
+console.log(template2);
+console.log(template3);
+console.log(template4);
+console.log(template5);

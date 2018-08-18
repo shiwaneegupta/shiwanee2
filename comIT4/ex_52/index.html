@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to CSS</title>
+    <script>
+        window.onload = function () {
+            const apiURL = 'https://swapi.co/api/films/';
+            fetch(apiURL)
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (data) {
+                    const films = data.results[0];
+                    console.log(films);
+
+                })
+        }
+
+    </script>
+</head>
+<body>
+    <div id= "content"></div>
+</body>
+
+</html>

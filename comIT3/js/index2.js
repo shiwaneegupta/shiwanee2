@@ -1,0 +1,10 @@
+var firstName;
+var lastName;
+var age;
+var dateOfBirth;
+var address;
+firstName = 'Shiwanee';
+lastName = 'Gupta';
+age = '25';
+dateOfBirth = 'june 6th';
+address = '5th avenue';

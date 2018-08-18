@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to CSS</title>
+    <script>
+        let userName = window.prompt('Please input your Username');
+        window.prompt('Please input your password');
+        alert(`Welcome ${userName}`);
+        const greet = function () {
+            let log = window.confirm('Do you still want to be logged?');
+            if (log == true) {
+                alert(`${userName} your session has beeen restored`);
+            }
+            else {
+                alert(`${userName} your session has expired`);
+            }
+        }
+
+        setTimeout(greet, 10000);
+
+
+
+    </script>
+</head>
+
+</html>
